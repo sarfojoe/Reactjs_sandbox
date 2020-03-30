@@ -7,14 +7,24 @@ class App extends Component {
   };
 
   addHandler = () => {
-    console.log('test');
+    console.log('addHandler click');
     this.setState({ likes: this.state.likes + 1});
+  };
+  removeHandler = () => {
+    console.log('removeHandler click');
+    this.setState({ likes: this.state.likes - 1});
+  };
+  resetHandler = () => {
+    console.log('resetHandler click');
+    this.setState({ likes: this.state.likes - 1});
   };
   render() {
     return (
       <div>
         <h1>Total likes: {this.state.likes}</h1>
         <button onClick={this.addHandler}>Add like</button>
+        <button onClick={this.removeHandler}>Remove like</button>
+        <button onClick={this.resetHandler}>Reset like</button>
       </div>
     );
   }
