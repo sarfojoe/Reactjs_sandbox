@@ -1,0 +1,14 @@
+.header {
+    background: #333;
+    display: block;
+    padding: 1rem;
+    height: 70px;
+    align-items: center;
+    justify-items: space-between;
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    color: white;
+}
+.header p {
+    text-align: right;
+}
