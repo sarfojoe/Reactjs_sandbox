@@ -43,8 +43,10 @@ class App extends Component {
   render(){
     return (
     <div>
+      <header>
       <h1>Speedtest</h1>
     <p>Your Score: {this.state.score}</p>
+    </header>
       <main>
         <Circle active={this.state.current === 1} buttonColor='yellow' click={this.clickHandler.bind(this, 1)} />
         <Circle active={this.state.current === 2} buttonColor='green' click={this.clickHandler.bind(this, 1)} />
