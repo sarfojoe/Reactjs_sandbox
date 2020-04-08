@@ -1,21 +1,20 @@
 .circle {
-    height: 150px;
-    display: inline-block;
-    width: 150px;
-    border-radius: 50%;
-    background: #efefef;
-    box-shadow: 0 0 3px #333;
-    margin: 20px;
+  height: 150px;
+  display: inline-block;
+  width: 150px;
+  border-radius: 50%;
+  background: #efefef;
+  box-shadow: 0 0 3px #333;
+  margin: 20px;
 }
-
 
 .circle.active {
-    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 1);
-    background: black;
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 1);
+  background: blueviolet;
 }
 button {
-    height: 40px;
-    margin: 2rem;
-    background: lightblue;
-    border-radius: 5px;
+  height: 40px;
+  margin: 2rem;
+  background: lightblue;
+  border-radius: 5px;
 }

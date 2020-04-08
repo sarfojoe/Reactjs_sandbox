@@ -1,0 +1,34 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  opacity: 0.7;
+}
+
+.overlaybox {
+  background: white;
+  padding: 1rem;
+  border-radius: 5px;
+  position: relative;
+  width: 40%;
+  min-height: 25%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+.overlaybox button {
+  background: lightgrey;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.overlaybox span {
+  font-size: 2rem;
+  color: blue;
+}
