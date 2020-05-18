@@ -1,0 +1,11 @@
+img {
+  height: 400px;
+  width: 350px;
+  margin-left: 10px;
+  margin-right: 30px;
+}
+.about {
+  display: flex;
+  margin-top: 2rem;
+  padding: 1rem;
+}
