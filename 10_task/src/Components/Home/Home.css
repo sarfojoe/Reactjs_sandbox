@@ -1,0 +1,14 @@
+.contact{
+    display: flex;
+    flex-direction: column; 
+    padding: 1rem; 
+    background: cornsilk;
+    
+}
+.laptop{
+    display: flex;
+    flex: 1;
+    margin: 1rem;
+    height: 400px;
+    border-radius: 5px;
+}

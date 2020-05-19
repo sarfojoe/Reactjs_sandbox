@@ -4,8 +4,10 @@ import "./About.css";
 const About = () => {
   return (
     <div className="about">
-      <img src="https://source.unsplash.com/featured/sunrise" alt="joseph" />
+      <img className="aboutimg" src="aboutpic.png" alt="joseph" />
       <div>
+        
+        <div className="maintext">
         <h1>This is about page</h1>
         <p>
           Lorem Ipsum es simplemente el texto de relleno de las imprentas y
@@ -36,6 +38,7 @@ const About = () => {
           desconocido usó una galería de textos y los mezcló de tal manera que
           logró hacer un libro de textos especimen. No sólo sobrevivió 500 años,
         </p>
+        </div>
       </div>
     </div>
   );

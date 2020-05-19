@@ -1,11 +1,19 @@
-img {
-  height: 400px;
-  width: 350px;
-  margin-left: 10px;
-  margin-right: 30px;
+.aboutimg {
+  display: flex;
+  flex: 1;
+  margin: 1rem;
+  margin-top: 4rem;
+  height: 350px;
+  border-radius: 5px;
 }
 .about {
   display: flex;
+  flex-direction: row;
   padding: 1rem;
   background: cornsilk;
+  min-height: auto;
 }
+
+.maintext{
+  flex: 1;
+} 

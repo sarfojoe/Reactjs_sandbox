@@ -11,6 +11,7 @@ const PostCard = ({ title, img, desc, link, author, remove }) => {
       <p>{desc}</p>
       <img src={img} alt={title} />
       <Link to={link}>Read more</Link>
+      {/* <p onClick={remove}>Remove this post</p> */}
       <p onClick={remove}>Remove this post</p>
     </div>
   );

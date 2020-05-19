@@ -25,8 +25,9 @@ const NewPost = () => {
   };
 
   return (
-    <>
-      <h1>Add new post</h1>
+    <div className="postarea">
+      <h1>Post Something new</h1>
+      <img className="post" src="post.jpg" alt="post" />
       <form className="newPost">
         <div>
           <label htmlFor="title">Title</label>
@@ -59,7 +60,7 @@ const NewPost = () => {
           Add new post
         </button>
       </form>
-    </>
+    </div>
   );
 };
 

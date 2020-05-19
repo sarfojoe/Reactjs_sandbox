@@ -14,3 +14,16 @@
   padding: 0.5rem;
   font-size: 0.8rem;
 }
+
+.newPost{
+  margin: 2rem;
+}
+.postarea{
+  background: cornsilk;
+  min-height: 80vh;
+  display: flex;
+}
+h1{
+  text-align: center;
+  padding: 1rem;
+}

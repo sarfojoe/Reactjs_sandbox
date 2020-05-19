@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-
 import PostCard from "../PostCard/PostCard";
 import { Switch, Route, useRouteMatch } from "react-router-dom";
-
 import FullPost from "../FullPost/FullPost";
+import "./Blog.css"
 
 const Blog = () => {
   const [post, setPost] = useState([]);
@@ -31,6 +30,7 @@ const Blog = () => {
 
   const PostList = post.map((p) => {
     return (
+      <div className="blogs">
       <PostCard
         key={p.id}
         title={p.title}
@@ -39,12 +39,15 @@ const Blog = () => {
         img={p.img}
         link={`${match.url}/${p.id}`}
         remove={() => removeHandler.bind(p.id)}
+        
       />
+       </div>
+      
     );
   });
 
   return (
-    <>
+    <div className="blogT">
       <Switch>
         <Route path="/blog/:postId">
           <FullPost />
@@ -56,7 +59,8 @@ const Blog = () => {
           </div>
         </Route>
       </Switch>
-    </>
+    </div>
+   
   );
 };
 
