@@ -26,7 +26,7 @@ const NewPost = () => {
 
   return (
     <div className="postarea">
-      <h1>Post Something new</h1>
+      <h1>Post your suggestion</h1>
       <img className="post" src="post.jpg" alt="post" />
       <form className="newPost">
         <div>

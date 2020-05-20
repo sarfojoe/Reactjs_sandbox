@@ -31,8 +31,15 @@ const postdata = [
     id: 5,
     title: "Post5",
     desc:
-      "Proin vehicula, augue et consequat lobortis, enim orci ultricies mauris, in facilisis metus turpis et purus. Integer pretium quis lectus at efficitur. Donec varius a lacus ut iaculis. Quisque porta, magna vitae accumsan rutrum, lacus orci volutpat sem, mattis hendrerit lacus ipsum in sem.",
+      "Proin vehicula, augue et consequat lobortis, enim orci ultricies mauris, in facilisis metus turpis et purus. Integer pretium quis lectus at efficitur. Donec varius a lacus ut iaculis. Quisque porta, magna vitae accumsan rutrum,",
     img: "https://source.unsplash.com/1600x900/?tree",
+  },
+  {
+    id: 6,
+    title: "Post6",
+    desc:
+      "Proin vehicula, augue et consequat lobortis, enim orci ultricies mauris, in facilisis metus turpis et purus. Integer pretium quis lectus at efficitur. Donec varius a lacus ut iaculis. Quisque porta, magna vitae accumsan rutrum,",
+    img: "https://source.unsplash.com/1600x900/?joy",
   },
 ];
 

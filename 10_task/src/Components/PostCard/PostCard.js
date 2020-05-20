@@ -1,20 +1,20 @@
-import React from "react";
-
-import "./PostCard.css";
-import { Link } from "react-router-dom";
-
+import React from 'react';
+ 
+import './PostCard.css';
+import { Link } from 'react-router-dom';
+import { Button } from 'react-bootstrap';
+ 
 const PostCard = ({ title, img, desc, link, author, remove }) => {
-  return (
+return (
     <div className="postCard">
-      <h2>{title}</h2>
-      <h2>{author}</h2>
-      <p>{desc}</p>
       <img src={img} alt={title} />
-      <Link to={link}>Read more</Link>
-      {/* <p onClick={remove}>Remove this post</p> */}
-      <p onClick={remove}>Remove this post</p>
+        <h2>{title}</h2>
+        <h2>{author}</h2>
+        <p>{desc}</p>
+        <Link className="link" to={link}>Read more..</Link>
+        <Button className="button" onClick={remove}>Remove post</Button>
     </div>
-  );
+ );
 };
-
+ 
 export default PostCard;
